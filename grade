@@ -8,3 +8,17 @@ int main() {
         scanf("%f", &marks[i]);
         total += marks[i];
     }
+     float percentage = total / 5.0;
+
+    // Determine grade
+    char grade;
+    if(percentage >= 90)
+        grade = 'A';
+    else if(percentage >= 80)
+        grade = 'B';
+    else if(percentage >= 70)
+        grade = 'C';
+    else if(percentage >= 60)
+        grade = 'D';
+    else
+        grade = 'F';
