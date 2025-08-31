@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float a, b, c;
+    printf("Enter coefficient of x^2: ");
+    scanf("%f", &a);
+    printf("Enter coefficient of x: ");
+    scanf("%f", &b);
+    printf("Enter coefficient of 1: ");
+    scanf("%f", &c);
