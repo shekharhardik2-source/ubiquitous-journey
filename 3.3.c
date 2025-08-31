@@ -11,7 +11,8 @@ int main() {
     printf("4. Print Square Root of the number\n");
     printf("Enter your choice (1-4): ");
     scanf("%d", &choice);
-    witch(choice) {
+   
+    switch(choice) {
         case 1:
             // Even or Odd (works for integers)
             if ((int)num % 2 == 0)
@@ -43,6 +44,4 @@ int main() {
         default:
             printf("Invalid choice!\n");
     }
-
-    return 0;
 }
