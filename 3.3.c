@@ -4,6 +4,10 @@
 int main() {
     int choice;
     float num;
+
+    printf("Enter a number: ");
+    scanf("%f", &num);
+
     printf("Menu:\n");
     printf("1. Check if number is Even or Odd\n");
     printf("2. Check if number is Positive or Negative\n");
